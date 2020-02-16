@@ -1,0 +1,58 @@
+{
+  "resource": "/to/{_to}",
+  "path": "/to/johndoe@example.com",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate",
+    "cache-control": "no-cache",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "GB",
+    "content-type": "application/x-www-form-urlencoded",
+    "Host": "",
+    "User-Agent": "",
+    "X-Amz-Cf-Id": "",
+    "X-Amzn-Trace-Id": "",
+    "X-Forwarded-For": "",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "referrer": "http://localhost/contact",
+    "origin": "http://localhost"
+  },
+  "queryStringParameters": null,
+  "pathParameters": {
+    "_to": "johndoe@example.com"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "path": "/dev/to/johndoe@example.com",
+    "accountId": "",
+    "resourceId": "",
+    "stage": "dev",
+    "requestId": "",
+    "requestTimeEpoch": 1581808902,
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "apiKey": "",
+      "sourceIp": "",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "",
+      "user": null
+    },
+    "resourcePath": "/to/{_to}",
+    "httpMethod": "POST",
+    "apiId": ""
+  },
+  "body": "first=test&second=test&third=test",
+  "isBase64Encoded": false
+}
